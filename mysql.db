@@ -1,0 +1,7 @@
+CREATE TABLE `node_mysql`.`user` (
+  `id` INT NOT NULL,
+  `id` int(11) NOT NULL AUTO_INCREMENT COMMENT '递增',
+  `name` VARCHAR(45) NULL,
+  `password` VARCHAR(45) NULL,
+  `create_time` VARCHAR(45) NULL,
+  PRIMARY KEY (`id`));
